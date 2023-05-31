@@ -1,0 +1,31 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^5.11.2",
+    "rate-limit-mongo": "^2.3.2",
+    "sinon": "^9.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
